@@ -15,31 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.1000.c">
+    <ClCompile Include="No.1000.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.1001.c">
+    <ClCompile Include="No.1001.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.2557.c">
+    <ClCompile Include="No.2557.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.7287.c">
+    <ClCompile Include="No.10171.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.10171.c">
+    <ClCompile Include="No.10172.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.10172.c">
+    <ClCompile Include="No.10718.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.10718.c">
+    <ClCompile Include="No.10998.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.11718.c">
+    <ClCompile Include="No.2588.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\백준\BaekJoon\입출력받아보기\No.11719.c">
+    <ClCompile Include="No.1008.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.10869.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.10430.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
