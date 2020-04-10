@@ -13,9 +13,8 @@ List::List() {
 
 void List::addFirst(int value) {
 	Node * node = new Node(value);
-	if (head == nullptr) {	// 추가하는 노드가 첫 노드인 경우
+	if (head == nullptr)	// 추가하는 노드가 첫 노드인 경우
 		head = tail = node;
-	}
 	else {	// 추가하는 노드가 첫 노드가 아닌 경우
 		node->next = head;
 		head->prev = node;
@@ -26,9 +25,8 @@ void List::addFirst(int value) {
 
 void List::addLast(int value) {
 	Node * node = new Node(value);
-	if (tail == nullptr) {	// 추가하는 노드가 첫 노드인 경우
+	if (tail == nullptr)	// 추가하는 노드가 첫 노드인 경우
 		head = tail = node;
-	}
 	else {	// 추가하는 노드가 첫 노드가 아닌 경우
 		tail->next = node;
 		node->prev = tail;
