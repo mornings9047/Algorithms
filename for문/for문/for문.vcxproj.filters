@@ -14,4 +14,39 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="No.2739.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.10950.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.8393.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.15552.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.2741.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.2742.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.11021.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.11022.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.2438.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.2439.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.10871.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
