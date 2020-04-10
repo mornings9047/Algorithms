@@ -14,5 +14,12 @@ int main() {
 
 	list->display();
 
+
+	list->addAt(3, 9);
+	list->addAt(5, 8);
+	list->addAt(1, 8);
+
+	list->display();
+
 	return 0;
 }

@@ -10,19 +10,25 @@ public:
 };
 
 class List {
-protected:
+//protected:
+public:
 	Node * head;
 	Node * tail;
 	int length;
 
-public:
+//public:
 	List();
 	~List();
+
 	void addFirst(int value);
 	void addLast(int value);
-	void insertN();
+	void addAt(int index, int value);
+
 	void deleteFirst();
 	void deleteLast();
-	void deleteN();
+	void deleteAt(int index);
+	void deleteAll();
+
+	int getLength();
 	void display();
 };

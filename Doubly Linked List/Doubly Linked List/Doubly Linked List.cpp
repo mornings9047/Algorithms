@@ -35,10 +35,39 @@ void List::addLast(int value) {
 	length++;
 }
 
+void List::addAt(int index, int value) {	// 첫 번째 노드의 index를 1로 설정
+	Node * node = new Node(value);
+	if (index<=0 || index>length)
+		printf("index 설정이 잘못되었습니다. \n\n");
+	else if (index == 1) 
+		addFirst(value);
+	else if (index == length)
+		addLast(value);
+	else {
+		Node * front = head;	// 새로 추가할 노드 앞에 있는 기존의 노드
+		for (int i = 1; i < index - 1; i++)
+			front = front->next;
+
+		Node * back = front->next;	// 새로 추가할 노드 뒤에 있는 기존의 노드
+
+		node->prev = front;
+		node->next = back;
+		front->next = node;
+		back->prev = node;
+	}
+	length++;
+}
+
+int List::getLength() {
+	return length;
+}
+
 void List::display() {
 	Node * point = head;
 	while (point != nullptr) {
-		printf("value = %d \n", point->value);
+		//printf("value = %d \n", point->value);
+		printf("%4d", point->value);
 		point = point->next;
 	}
+	printf("\n\n");
 }
