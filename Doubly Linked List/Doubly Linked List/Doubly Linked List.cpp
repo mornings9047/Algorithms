@@ -58,6 +58,10 @@ void List::addAt(int index, int value) {	// 첫 번째 노드의 index를 1로 설정
 	length++;
 }
 
+void List::deleteFirst() {
+
+}
+
 int List::getLength() {
 	return length;
 }
@@ -65,7 +69,6 @@ int List::getLength() {
 void List::display() {
 	Node * point = head;
 	while (point != nullptr) {
-		//printf("value = %d \n", point->value);
 		printf("%4d", point->value);
 		point = point->next;
 	}
