@@ -11,7 +11,7 @@ int main() {
 
 	for (int i = 0; i < MAX; i++) {
 		if (arr[i] != 1)
-			printf("%d \n", i);
+			printf("%d \n", i);		// 셀프 넘버 출력
 	}
 	return 0;
 }
