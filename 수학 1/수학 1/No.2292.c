@@ -3,7 +3,7 @@
 
 int main() {
 	int num, cnt = 1;
-	int max = 1, outer = 0;		// outer: 최외각에 있는 제일 큰 숫자 + 1 (0, 6, 18, 36, 60 ...) + 1
+	int outer = 0;		// outer: 최외각에 있는 제일 큰 숫자 + 1 (0, 6, 18, 36, 60 ...) + 1
 	int d = 6;		// 육각형이므로 6을 이용
 
 	scanf("%d", &num);
