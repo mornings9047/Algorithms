@@ -59,6 +59,20 @@ void List::addAt(int index, int value) {	// 첫 번째 노드의 index를 1로 설정
 }
 
 void List::deleteFirst() {
+	if (length == 0)
+		printf("삭제할 node가 존재하지 않습니다.\n");
+	else if (length == 1) {
+		delete(head);
+		head = tail = nullptr;
+		length--;
+	}
+	else {
+		Node * node = head;
+		head = node->next;
+		node->next->prev = head;
+		delete(node);
+		length--;
+	}
 
 }
 

@@ -8,6 +8,23 @@ int main() {
 	list->addFirst(20);
 	list->addFirst(30);
 	list->display();
+	list->deleteFirst();
+	list->deleteFirst();
+	list->display();
+
+	list->addFirst(1);
+	list->addFirst(2);
+	list->display();
+
+	list->deleteFirst();
+	list->display();
+
+
+	/*
+	list->addFirst(10);
+	list->addFirst(20);
+	list->addFirst(30);
+	list->display();
 
 	list->addLast(1);
 	list->addLast(2);
@@ -23,6 +40,6 @@ int main() {
 	list->deleteFirst();
 	list->deleteFirst();
 	list->display();
-
+	*/
 	return 0;
 }
