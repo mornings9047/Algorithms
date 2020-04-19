@@ -11,6 +11,12 @@ List::List() {
 	length = 0;
 }
 
+List::~List() {
+	if (length != 0)
+		deleteAll();
+	printf("List Destroyed \n\n");
+}
+
 void List::addFirst(int value) {
 	Node * node = new Node(value);
 	if (head == nullptr)	// 추가하는 노드가 첫 노드인 경우
@@ -137,7 +143,7 @@ int List::getLength() {
 
 void List::display() {
 	if (length == 0) {
-		printf("노드가 존재하지 않습니다.\n");
+		printf("노드가 존재하지 않습니다.\n\n");
 	}
 	else {
 		Node * point = head;

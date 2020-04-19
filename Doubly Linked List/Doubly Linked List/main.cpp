@@ -45,6 +45,6 @@ int main() {
 	list->deleteAll();
 	list->display();
 
-
+	delete(list);
 	return 0;
 }
