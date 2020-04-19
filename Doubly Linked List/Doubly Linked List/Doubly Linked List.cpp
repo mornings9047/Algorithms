@@ -95,18 +95,14 @@ void List::deleteLast() {
 void List::deleteAt(int index) {
 	int cnt = 1;
 
-	if (length == 0) {
+	if (length == 0)
 		printf("삭제할 노드가 존재하지 않습니다.\n");
-	}
-	else if (index < 1 || length < index) {
+	else if (index < 1 || length < index)
 		printf("index를 잘못 입력하셨습니다.\n");
-	}
-	else if (index == 1) {
+	else if (index == 1)
 		deleteFirst();
-	}
-	else if (index == length) {
+	else if (index == length)
 		deleteLast();
-	}
 	else {
 		Node * node = head;
 		while (cnt++ != index)
@@ -118,15 +114,37 @@ void List::deleteAt(int index) {
 	}
 }
 
+void List::deleteAll() {
+	if (head == nullptr)
+		return;
+	else {
+		Node * node = head;
+		while (node->next != nullptr) {
+			node = head->next;
+			delete(head);
+			head = node;
+
+		}
+		delete(head);
+		head = tail = nullptr;
+		length = 0;
+	}
+}
+
 int List::getLength() {
 	return length;
 }
 
 void List::display() {
-	Node * point = head;
-	while (point != nullptr) {
-		printf("%4d", point->value);
-		point = point->next;
+	if (length == 0) {
+		printf("노드가 존재하지 않습니다.\n");
 	}
-	printf("\n\n");
+	else {
+		Node * point = head;
+		while (point != nullptr) {
+			printf("%4d", point->value);
+			point = point->next;
+		}
+		printf("\n\n");
+	}
 }
