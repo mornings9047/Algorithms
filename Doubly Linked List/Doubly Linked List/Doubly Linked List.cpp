@@ -111,8 +111,6 @@ void List::deleteLast() {
 }
 
 void List::deleteAt(int index) {
-	int cnt = 1;
-
 	if (length == 0)
 		printf("삭제할 노드가 존재하지 않습니다.\n");
 	else if (index < 1 || length < index)
@@ -122,12 +120,31 @@ void List::deleteAt(int index) {
 	else if (index == length)
 		deleteLast();
 	else {
-		Node * node = head;
-		while (cnt++ != index)
-			node = node->next;
-		node->prev->next = node->next;
-		node->next->prev = node->prev;
-		delete(node);
+		Node * point;
+
+		int cnt = 1;
+		if (index <= (length + 1) / 2) {		// 앞에서 삭제
+			point = head;
+
+			while (cnt < index) {
+				point = point->next;
+				//printf("point->prev: %d, point: %d, point->next: %d \n", point->prev->value, point->value, point->next->value);
+				cnt++;
+			}
+
+			printf("point->prev: %d, point: %d, point->next: %d \n\n", point->prev->value, point->value, point->next->value);
+
+
+			point->prev->next = point->next;
+			point->next->prev = point->prev;
+			delete(point);
+		}
+		else {		// 뒤에서 삭제
+			point = tail;
+
+
+			
+		}
 		length--;
 	}
 }

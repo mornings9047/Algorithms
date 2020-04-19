@@ -42,7 +42,7 @@ int main() {
 
 	printf("deleteAt() Test \n");
 	list->deleteAt(3);
-	list->deleteAt(5);
+	//list->deleteAt(5);
 	list->display();
 
 	printf("deleteAll() Test \n");
