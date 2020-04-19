@@ -6,10 +6,10 @@ int main() {
 	List * list = new List();
 
 	printf("addFirst() Test \n");
-	list->addFirst(10);
-	list->addFirst(20);
-	list->addFirst(30);
 	list->addFirst(40);
+	list->addFirst(30);
+	list->addFirst(20);
+	list->addFirst(10);
 	list->display();
 
 	printf("addLast() Test \n");
@@ -20,10 +20,14 @@ int main() {
 	list->display();
 
 	printf("addAt() Test \n");
-	list->addAt(3, 9);
-	list->addAt(5, 8);
-	list->addAt(1, 8);
-	list->addAt(4, 66);
+	
+	list->addAt(1, 2);
+	list->display();
+
+	list->addAt(5, 5);
+	list->display();
+
+	list->addAt(10, 10);
 	list->display();
 
 	printf("deleteFirst() Test \n");
@@ -46,5 +50,6 @@ int main() {
 	list->display();
 
 	delete(list);
+
 	return 0;
 }

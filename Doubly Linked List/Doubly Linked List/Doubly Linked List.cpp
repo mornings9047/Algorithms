@@ -42,26 +42,38 @@ void List::addLast(int value) {
 }
 
 void List::addAt(int index, int value) {	// 첫 번째 노드의 index를 1로 설정
-	Node * node = new Node(value);
-	if (index<=0 || index>length)
+	if (index < 1 || index > length + 1) {
 		printf("index 설정이 잘못되었습니다. \n\n");
-	else if (index == 1) 
-		addFirst(value);
-	else if (index == length)
-		addLast(value);
-	else {
-		Node * front = head;	// 새로 추가할 노드 앞에 있는 기존의 노드
-		for (int i = 1; i < index - 1; i++)
-			front = front->next;
-
-		Node * back = front->next;	// 새로 추가할 노드 뒤에 있는 기존의 노드
-
-		node->prev = front;
-		node->next = back;
-		front->next = node;
-		back->prev = node;
+		return;
 	}
-	length++;
+
+	// 첫 노드의 index를 1로 설정했기 때문에 index가 1인 경우와 length + 1인 경우를 addFirst(), addLast()로 해주어야 함
+	if (index == 1)
+		addFirst(value);
+	else if (index == length + 1)
+		addLast(value);
+	else if (index <= (length + 1) / 2) {		// 앞에서 추가
+		Node * node = new Node(value);
+		Node * point = head;	// 새로 추가할 노드 앞에 있는 기존의 노드
+		for (int i = 1; i < index - 1; i++)
+			point = point->next;
+		node->prev = point;
+		node->next = point->next;
+		point->next = node;
+		point->next->prev = node;
+		length++;
+	}
+	else {		// 뒤에서 추가
+		Node * node = new Node(value);
+		Node * point = tail;
+		for (int i = 0; i < length - index; i++)
+			point = point->prev;
+		point->prev->next = node;
+		node->prev = point->prev;
+		node->next = point;
+		point->prev = node;
+		length++;
+	}
 }
 
 void List::deleteFirst() {
