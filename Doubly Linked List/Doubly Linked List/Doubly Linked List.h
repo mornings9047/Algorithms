@@ -10,13 +10,12 @@ public:
 };
 
 class List {
-//protected:
-public:
+protected:
 	Node * head;
 	Node * tail;
 	int length;
 
-//public:
+public:
 	List();
 	~List();
 
@@ -28,6 +27,8 @@ public:
 	void deleteLast();
 	void deleteAt(int index);
 	void deleteAll();
+
+	int search(int value);
 
 	int getLength();
 	void display();

@@ -92,6 +92,32 @@ void List::deleteLast() {
 	}
 }
 
+void List::deleteAt(int index) {
+	int cnt = 1;
+
+	if (length == 0) {
+		printf("삭제할 노드가 존재하지 않습니다.\n");
+	}
+	else if (index < 1 || length < index) {
+		printf("index를 잘못 입력하셨습니다.\n");
+	}
+	else if (index == 1) {
+		deleteFirst();
+	}
+	else if (index == length) {
+		deleteLast();
+	}
+	else {
+		Node * node = head;
+		while (cnt++ != index)
+			node = node->next;
+		node->prev->next = node->next;
+		node->next->prev = node->prev;
+		delete(node);
+		length--;
+	}
+}
+
 int List::getLength() {
 	return length;
 }
