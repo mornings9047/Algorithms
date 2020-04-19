@@ -73,7 +73,23 @@ void List::deleteFirst() {
 		delete(node);
 		length--;
 	}
+}
 
+void List::deleteLast() {
+	if (length == 0)
+		printf("삭제할 node가 존재하지 않습니다.\n");
+	else if (length == 1) {
+		delete(head);
+		head = tail = nullptr;
+		length--;
+	}
+	else {
+		Node * node = tail;
+		node->prev->next = nullptr;
+		tail = node -> prev;
+		delete(node);
+		length--;
+	}
 }
 
 int List::getLength() {

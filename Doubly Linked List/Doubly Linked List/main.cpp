@@ -4,23 +4,7 @@ using namespace std;
 
 int main() {
 	List * list = new List();
-	list->addFirst(10);
-	list->addFirst(20);
-	list->addFirst(30);
-	list->display();
-	list->deleteFirst();
-	list->deleteFirst();
-	list->display();
-
-	list->addFirst(1);
-	list->addFirst(2);
-	list->display();
-
-	list->deleteFirst();
-	list->display();
-
-
-	/*
+	
 	list->addFirst(10);
 	list->addFirst(20);
 	list->addFirst(30);
@@ -40,6 +24,11 @@ int main() {
 	list->deleteFirst();
 	list->deleteFirst();
 	list->display();
-	*/
+
+	list->deleteLast();
+	list->deleteLast();
+	list->deleteLast();
+	list->display();
+	
 	return 0;
 }
