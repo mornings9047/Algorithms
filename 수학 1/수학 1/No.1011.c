@@ -34,9 +34,11 @@ long move(int src, int dest) {
 		// distance - n*n <= 2n + 1 의 경우는 distance - (n+1) * (n+1) = 0 이 되는 경우이다.
 	}
 
-	/*int step = 0;
+	/*
+	int step = 0;
 	long pos = 0;
 	while (pos < distance)
 		pos += step++ * 2;
-	return distance <= pos - (--step) ? step * 2 - 1 : step * 2;*/
+	return distance <= pos - (--step) ? step * 2 - 1 : step * 2;
+	*/
 }
