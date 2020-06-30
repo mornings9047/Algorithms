@@ -21,5 +21,11 @@
     <ClCompile Include="No.10870.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="No.2447.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="No.11729.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
