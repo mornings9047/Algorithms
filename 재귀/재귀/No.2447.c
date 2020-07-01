@@ -15,12 +15,5 @@ int main() {
 }
 
 void printStar(int row, int col, int num) {
-	if (row / num % 3 == 1 && col / num % 3 == 1)
-		printf(" ");
-	else {
-		if (num / 3 == 0)
-			printf("*");
-		else
-			printStar(row, col, num / 3);
-	}
+	
 }
