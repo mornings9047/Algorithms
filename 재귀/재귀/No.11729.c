@@ -11,5 +11,5 @@ int main() {
 }
 
 void hanoi(int start, int temp, int num) {
-	printf("%d %d \n", );
+	
 }
