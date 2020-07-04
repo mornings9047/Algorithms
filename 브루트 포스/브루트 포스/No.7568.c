@@ -8,9 +8,9 @@ int main() {
 	int cnt, weight, height;
 
 	scanf("%d", &cnt);
-	int ** arr = (int *)malloc(sizeof(int *) * cnt);
+	int ** arr = (int **) malloc(sizeof(int *) * cnt);
 	for (int i = 0; i < cnt; i++)
-		arr[i] = malloc(sizeof(int) * 2);
+		arr[i] = (int *) malloc(sizeof(int) * 2);
 
 	for (int i = 0; i < cnt; i++) {
 		scanf("%d %d", &weight, &height);
@@ -24,7 +24,7 @@ int main() {
 }
 
 void rank(int ** arr, int cnt) {
-	int * result = malloc(sizeof(int) * cnt);
+	int * result = (int * ) malloc(sizeof(int) * cnt);
 	for (int i = 0; i < cnt; i++) {
 		int r = cnt;
 		for (int j = 0; j < cnt; j++) {
