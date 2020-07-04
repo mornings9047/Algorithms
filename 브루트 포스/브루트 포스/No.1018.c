@@ -2,35 +2,57 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int chess(int **);
+int chess(char **, int, int);
+int count(char **, int, int, char);
+int check(char **, int, int, int, char);
 
 int main() {
 	int row, col;
+
 	scanf("%d %d", &row, &col);
-	int ** arr = (int **) malloc(sizeof(int *) * row);
-
+	char ** arr = (char **) malloc(sizeof(char *) * row);
 	for (int i = 0; i < row; i++)
-		arr[i] = (int *)malloc(sizeof(int) * col);
+		arr[i] = (char *)malloc(sizeof(char) * col);
 
 	for (int i = 0; i < row; i++) {
-		for (int j = 0; j < col; j++) {
-			scanf("%c", &arr[i][j]);
-		}
+		for (int j = 0; j < col; j++)
+			scanf(" %c", &arr[i][j]);
 	}
 
-	for (int i = 0; i < row; i++) {
-		for (int j = 0; j < col; j++) {
-			printf("%c", arr[i][j]);
-		}
-		printf("\n");
-	}
-
-	printf("%d \n", chess(arr));
+	printf("%d \n", chess(arr, row, col));
 	return 0;
 }
 
-int chess(int ** arr) {
-	int cnt = 0;
+int chess(char ** arr, int row, int col) {
+	int min = 32;
+	for (int i = 0; i < row - 7; i++) {
+		for (int j = 0; j < col - 7; j++) {
+			int cnt = count(arr, i, j, arr[i][j]);
+			min = min > cnt ? cnt : min;
+		}
+	}
+	return min;
+}
 
-	return cnt;
+int count(char ** arr, int row, int col, char ch) {
+	int cnt = 0;
+	int s = (row + col) % 2;
+	for (int i = row; i < row + 8; i++) {
+		for (int j = col; j < row + 8; j++)
+			cnt += check(arr, s, i, j, ch);
+	}
+	return cnt > 32 ? 64 - cnt : cnt;
+}
+
+int check(char ** arr, int s, int row, int col, char ch) {
+	if ((row + col) % 2 == s) {
+		if (arr[row][col] == ch)
+			return 0;
+	}
+	else {
+		if (arr[row][col] != ch)
+			return 0;
+	}
+
+	return 1;
 }
