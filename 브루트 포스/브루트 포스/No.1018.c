@@ -19,7 +19,7 @@ int main() {
 			scanf(" %c", &arr[i][j]);
 	}
 
-	printf("%d \n", chess(arr, row, col));
+	printf("%d", chess(arr, row, col));
 	return 0;
 }
 
@@ -37,8 +37,8 @@ int chess(char ** arr, int row, int col) {
 int count(char ** arr, int row, int col, char ch) {
 	int cnt = 0;
 	int s = (row + col) % 2;
-	for (int i = row; i < row + 8; i++) {
-		for (int j = col; j < row + 8; j++)
+		for (int i = row; i < row + 8; i++) {
+		for (int j = col; j < col + 8; j++)
 			cnt += check(arr, s, i, j, ch);
 	}
 	return cnt > 32 ? 64 - cnt : cnt;
@@ -53,6 +53,5 @@ int check(char ** arr, int s, int row, int col, char ch) {
 		if (arr[row][col] != ch)
 			return 0;
 	}
-
 	return 1;
 }
