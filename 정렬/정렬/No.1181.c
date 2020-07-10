@@ -1,64 +1,38 @@
 /* No.1181 단어의 순서를 정의하여 정렬하는 문제 */
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
-void sort(char **, int);
-void swap(char **, int);
-void destroy(char **, int);
-
-struct Word {
+typedef struct Word {
 	char str[50];
 	int size;
 } word;
+int compare(const void *, const void *);
 
 int main() {
 	int cnt;
-	char str[50];
-	struct word * arr[20000];
 
 	scanf("%d", &cnt);
+	word * arr = (word *)malloc(sizeof(word) * cnt);
 	for (int i = 0; i < cnt; i++) {
-		scanf("%s", word.str);
-		word.size = strlen(word.str);
-		//arr[i] = (char *)malloc(sizeof(char) * strlen(str));
-		strcpy(arr[i], str);
+		scanf("%s", arr[i].str);
+		arr[i].size = strlen(arr[i].str);
 	}
-	
-	sort(arr, cnt);
 
-	for (int i = 1; i < cnt; i++) {
-		if (strcmp(arr[i], arr[i - 1]) == 0)
+	qsort(arr, cnt, sizeof(word), compare);
+	for (int i = 0; i < cnt; i++) {
+		if (compare(arr[i].str, arr[i + 1].str) == 0)
 			continue;
-		printf("%s \n", arr[i]);
+		printf("%s \n", arr[i].str);
 	}
-
-	destroy(arr, cnt);
 	return 0;
 }
 
-void sort(char ** arr, int cnt) {
-	for (int i = 0; i < cnt; i++) {
-		for (int j = 0; j < cnt - i - 1; j++) {
-			if (i == j || strlen(arr[j]) < strlen(arr[j + 1]))
-				continue;
-			else if (strlen(arr[j]) > strlen(arr[j + 1]))	// 문자열의 길이가 짧은 것이 앞으로
-				swap(arr, j);
-			else {	// 문자열의 길이가 같으면 사전 순으로
-				if (strcmp(arr[j], arr[j + 1]) > 0)
-					swap(arr, j);
-			}
-		}
-	}
-}
-
-void swap(char ** arr, int j) {
-	char * temp = arr[j];
-	arr[j] = arr[j + 1];
-	arr[j + 1] = temp;
-}
-
-void destroy(char ** arr, int cnt) {
-	for (int i = 0; i < cnt; i++)
-		free(arr[i]);
+int compare(const void * first, const void * second) {
+	if ((*(word *)first).size > (*(word *)second).size)
+		return 1;
+	else if ((*(word *)first).size == (*(word *)second).size)
+		return strcmp((*(word *)first).str, (*(word *)second).str);
+	else
+		return -1;
 }
