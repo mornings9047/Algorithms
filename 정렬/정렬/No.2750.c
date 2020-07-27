@@ -8,7 +8,7 @@ void insertionSort(int *, int);
 int main() {
 	int cnt;
 	scanf("%d", &cnt);
-	int * arr = malloc(sizeof(int) * cnt);
+	int * arr = (int *)malloc(sizeof(int) * cnt);
 	for (int i = 0; i < cnt; i++)
 		scanf("%d", &arr[i]);
 
