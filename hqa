@@ -1,0 +1,767 @@
+[33mcommit 3e01ba4c7a7cded5411f00b6cd7a9a9aff9c6565[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 501e09e b7ebe8e
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 30 13:33:05 2020 +0900
+
+    Merge branch 'master' of https://github.com/mornings9047/Algorithms
+
+[33mcommit 501e09e10b9c945a3180197d60d2147097747184[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 13 10:43:12 2020 +0900
+
+    No.15649 구현중
+
+[33mcommit e0c189f1a2b16eed771fbfd35ab08b98eef399df[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 30 09:44:09 2020 +0900
+
+    No.1874 구현중
+
+[33mcommit b7ebe8efc7f4978e67b9322c68ffb2709a9aaf89[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 30 10:00:56 2020 +0900
+
+    No.15649 구현중
+
+[33mcommit fbb79add6a70a0c1b0142f9aa9f8ec1073a0ccf6[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 30 09:44:09 2020 +0900
+
+    No.1874 구현중
+
+[33mcommit 7f01fc425a2a034ff42c25b34a03d940d1ef2bf6[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 30 00:09:00 2020 +0900
+
+    No.4949 완료
+
+[33mcommit d672f89c3b824643259fbe1c0bf684780ffcf6d9[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Jul 12 20:19:21 2020 +0900
+
+    Revert "No.10773 완료"
+    
+    This reverts commit d06236e514a2da0eaddf5e54a03b9b9f09dc20f1.
+
+[33mcommit 8d7acc94943de79bd606967a5b47097048cdab7b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 27 18:47:56 2020 +0900
+
+    No.10773 완료
+
+[33mcommit ba8d249cb440a0426ce066d9bea9976bb3d614b5[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 27 18:31:37 2020 +0900
+
+    No.10773 완료
+
+[33mcommit 81511e9abf2469ce2517289209d67ff849d41098[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Jul 10 21:42:34 2020 +0900
+
+    No.1181 완료
+
+[33mcommit 9d88d929eece30dc7cc16593e4037aee0e200dd3[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Jul 10 21:00:44 2020 +0900
+
+    No.11651 완료
+
+[33mcommit e2b03e0a8f226f190f928d4b1cf068fc89531c11[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 9 13:34:23 2020 +0900
+
+    No.11650 완료
+
+[33mcommit 3ac855fabc2be97c4fba33d845d482c503be3130[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 9 13:21:24 2020 +0900
+
+    No.1427 완료
+
+[33mcommit 676fab10a4049a53a9184e09633f268ac43d1821[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 9 13:04:41 2020 +0900
+
+    No.2108 완료
+
+[33mcommit cb73f85c161ca3ffddd0d5c8cfeee2ff96758b3b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Jul 8 12:10:27 2020 +0900
+
+    No.2751 완료
+
+[33mcommit 6345093627e65efd99b06909116b6e43382e4d9b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jul 7 23:18:59 2020 +0900
+
+    No.9012 완료
+
+[33mcommit 0118e2ee58b8886b1c1f4dcdd56b5d7a72ff5c7c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jul 7 22:47:31 2020 +0900
+
+    No.1003 완료
+
+[33mcommit e17f487f4aad90bf52a06a98dac5506c6c8dce7d[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 6 16:19:55 2020 +0900
+
+    No.2748 완료
+
+[33mcommit 427b2f623968f95c90934ef447dfddd9ba996115[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 6 13:20:19 2020 +0900
+
+    No.1181 구현 중
+
+[33mcommit 40d96de1c9263950dd3db8c5308748817de4855b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 6 12:01:18 2020 +0900
+
+    No.10989 완료
+
+[33mcommit 87060cf0aae528cacd8fe619e7cf7a6ed32195b3[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jul 6 11:52:01 2020 +0900
+
+    No.2751 구현 중
+
+[33mcommit 297bbeb7ef4505af6f9cc2334e120cafc7e04bef[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Jul 5 14:26:40 2020 +0900
+
+    13단계 완료
+
+[33mcommit 1f1872f692a2a07fe03b7c45e8c02719db6de4f2[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Jul 5 13:21:58 2020 +0900
+
+    No.1018 완료
+
+[33mcommit 1e8c30651f391b26ebe610081b2cc4c8b460c92e[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Jul 4 22:34:57 2020 +0900
+
+    No.1018 구현중
+
+[33mcommit 7efa3744b892a59439459d3cab362c6a676ad058[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Jul 4 12:54:33 2020 +0900
+
+    No. 7568 완료
+
+[33mcommit da0477b452c5b13647f28869b5377f619dfb4726[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Jul 4 12:29:51 2020 +0900
+
+    No.7568 완료
+
+[33mcommit ed1a8f6bbbaf8f4aa934da0cc1bf35c1560d09fb[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Jul 3 15:15:07 2020 +0900
+
+    No.2331 완료
+
+[33mcommit d6c21cb1ded933f19b77300cb79b52b35e002b63[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Jul 3 14:28:13 2020 +0900
+
+    No.2798 완료
+
+[33mcommit a97b8644d5ae4a6296d5721cd08b5b8b2871d456[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Jul 3 13:37:20 2020 +0900
+
+    11단계 완료
+
+[33mcommit 84a209b88c638587e4f35ffb7626f427489d6260[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 14:45:34 2020 +0900
+
+    No.2750 완료
+
+[33mcommit f27053c59bb8c02fce8b6e0d9d383ee51ee60509[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 13:55:42 2020 +0900
+
+    No.2447 완료
+
+[33mcommit a19012fd579d3d8c41eba9dcec0dbe22b335e851[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 13:26:07 2020 +0900
+
+    10단계 완료
+
+[33mcommit 6f22abd030a1be8686943291ce9fa5f955beffb2[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 13:24:12 2020 +0900
+
+    10단계 완료
+
+[33mcommit 623509543e5e6d6847e17ecf3c9ca659c3f576d1[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 12:55:24 2020 +0900
+
+    No.3053 완료
+
+[33mcommit d1f91776626bd4fafdc7641eaed463e235d77a68[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jul 2 12:35:19 2020 +0900
+
+    No.4153 완료
+
+[33mcommit a115b64609fc34d22e650d62c3ecadd315732483[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Jul 1 13:41:34 2020 +0900
+
+    No.3009 완료
+
+[33mcommit b94ea176a226986da74c3714758120ab240d7d15[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Jul 1 12:57:38 2020 +0900
+
+    No.1085 완료
+
+[33mcommit 994a9c1feb7e4105efd5874a60b8068f2589710c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Jul 1 12:38:54 2020 +0900
+
+    No.9020 완료
+
+[33mcommit 3582bda94435b4ff25db1732d45989e91d617786[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Jul 1 02:14:21 2020 +0900
+
+    No.2447 완료
+
+[33mcommit 15d9bd5cdfc414efc9af42d482b362995557f1b8[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 19:07:36 2020 +0900
+
+    No.10870 완료
+
+[33mcommit 7e5d6808520f71f5092865f783ad3f0f629f3605[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 18:57:02 2020 +0900
+
+    No.10872 완료
+
+[33mcommit 9d36a8141207a6739db39794bb556b658507171b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 18:20:43 2020 +0900
+
+    Revert "Dijkstra 구현 중"
+    
+    This reverts commit fedd3d3309268f9de38a7da58a8d53f9486743e7.
+
+[33mcommit fedd3d3309268f9de38a7da58a8d53f9486743e7[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 18:18:05 2020 +0900
+
+    Dijkstra 구현 중
+
+[33mcommit cbcc0a7c60128c2a5f698b1095b25353f93d1285[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 15:11:50 2020 +0900
+
+    No.4948 완료
+
+[33mcommit 7793595f1dd7c0f322002f3ac358f8ca8eedb170[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 14:01:49 2020 +0900
+
+    No.1929 완료
+
+[33mcommit 0f231cb7f6432316518032a8384a5d2c9d92cf46[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 01:25:50 2020 +0900
+
+    No.2581 완료
+
+[33mcommit 2948312dfcbc19db74534ac54c35bb424ca209be[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Tue Jun 30 01:11:37 2020 +0900
+
+    No.1978 완료
+
+[33mcommit 1af576cf6ada898d6aa3fc35fd0c663a293c57de[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 17:43:22 2020 +0900
+
+    No.1928 구현 중
+
+[33mcommit 7ce63e7421e7faa5e1c23737abd741695b6dfde9[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 17:37:17 2020 +0900
+
+    No.1978 구현 중
+
+[33mcommit 381a8aba95e8bd1518e1e990a9b3ed28da0d6be8[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 17:31:01 2020 +0900
+
+    7단계 완료
+
+[33mcommit 063743b35d4ad7fd8f90e2d9191c7d89ba819b3b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 17:08:21 2020 +0900
+
+    9단계 완료
+
+[33mcommit b128219692d596c972dea16d1de1d104cdd338b7[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 17:06:37 2020 +0900
+
+    No.1011 완료
+
+[33mcommit aff90f162d129d272dc99f5ccda595f2b22f9cef[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 14:26:10 2020 +0900
+
+    No.2775 완료
+
+[33mcommit 288be9c047e0c65fdb11fda2164269e3da85e229[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Jun 29 13:37:09 2020 +0900
+
+    No.10650 완료
+
+[33mcommit c9aa9f995b53d3c0525ab557099608558ddbc12c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Jun 7 14:53:49 2020 +0900
+
+    No.2969 완료
+
+[33mcommit 92ab508b467cf7720b3d87cfbea68d2c0e4c84a2[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jun 4 16:28:46 2020 +0900
+
+    Revert "No.1193 완료"
+    
+    This reverts commit 4d80e8ae78470ae5893b07e2d24edb96b5730dfa.
+
+[33mcommit 00adc7a62d9f2f5f6163bb70c872d6a8d918d17b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jun 4 16:28:21 2020 +0900
+
+    No.1193 완료
+
+[33mcommit 4d80e8ae78470ae5893b07e2d24edb96b5730dfa[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Jun 4 16:27:58 2020 +0900
+
+    No.1193 완료
+
+[33mcommit 7cee3b031e1377bb94c50890e264a5ca98e7ef27[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 19:56:31 2020 +0900
+
+    deleteAt() Refactoring 중
+
+[33mcommit 1aea7abe54d1d1037ce33feff2041391778154ff[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 18:56:03 2020 +0900
+
+    addAt() Refactoring 완료
+
+[33mcommit 736efdfd50fba130afc3468b98cccd21126a5290[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 18:01:36 2020 +0900
+
+    ~List() 구현 완료
+
+[33mcommit 82d7b9928cbab2ea02f1ad21ba5a07d789210ddd[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 17:50:05 2020 +0900
+
+    deleteAll() 구현 완료
+
+[33mcommit 86641df1e0ffa1f07d569bcb37332dafba9d2903[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 17:33:21 2020 +0900
+
+    deleteAt() 구현 완료
+
+[33mcommit 667b50a9ec8bc5c2b036b7aeeee4d353d6a705ae[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 19 17:14:27 2020 +0900
+
+    deleteLast() 구현 완료
+
+[33mcommit 165f1693f29564268afa0e682bf7b69ee1902e7d[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 18 23:14:42 2020 +0900
+
+    deleteFirst() 구현 완료
+
+[33mcommit a331cac5af3c0529c8972b08ff9115b15bb7a242[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 18 22:50:24 2020 +0900
+
+    No.1193 진행 중
+
+[33mcommit a39aece9bc20d39b7a63379673dc629fa631a3af[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 17 18:47:06 2020 +0900
+
+    No.2292 완료
+
+[33mcommit 410e32d90a2140a5299f5f80c6c3c1da9fa268d4[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 17 18:46:24 2020 +0900
+
+    No.2292 완료
+
+[33mcommit 6e2a884219473992120f6281367ebfa8b2ebab96[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 17 18:45:16 2020 +0900
+
+    No.2292 완료
+
+[33mcommit 13cdfa1ce8761d9931daf9cc5b57c2ab067a018c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 17 18:07:40 2020 +0900
+
+    No.2839 완료
+
+[33mcommit 5e2d7e20958fbda44c1adf2f6856e7b45255ec25[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 17 17:52:44 2020 +0900
+
+    No.1712 완료
+
+[33mcommit 9a187573f298dc853379fe9f80b528cf2a90ea4a[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 19:09:27 2020 +0900
+
+    9단계. 수학 1
+
+[33mcommit 19f20ad56ac601a273c5d40b531f8781d12c8eaf[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 19:07:37 2020 +0900
+
+    8단계 완료
+
+[33mcommit 75594ffeac0f96a073d13d74382cec22cc36143d[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 19:07:28 2020 +0900
+
+    8단계 완료
+
+[33mcommit b02ed7c5b40648d24434dbecd0a98716159841fb[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 19:06:36 2020 +0900
+
+    No.1316 완료
+
+[33mcommit 3d6d682ccb476781372b0fcc13410a2f9de1ffd5[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 17:36:33 2020 +0900
+
+    No.2941 완료
+
+[33mcommit 7034002c0bc016c1cd47f52dd5ac60facb0a7fde[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 17:35:56 2020 +0900
+
+    No.5622 완료
+
+[33mcommit 1c328b361f9965fce9888e4a6ca13c0808bb74f9[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 16:21:34 2020 +0900
+
+    No.5622 오답
+
+[33mcommit 5c15bcdeed2bc8adacdac0aee44a622eb99909b0[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 15:47:02 2020 +0900
+
+    No.2908 완료
+
+[33mcommit c73798a4486a0182ff63307c3ebc9c1d9e5e5a27[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Wed Apr 15 15:31:18 2020 +0900
+
+    No.2908 완료
+
+[33mcommit 664e155251ff94582d129f43b1ca30f0f929f0e5[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Apr 13 16:44:28 2020 +0900
+
+    No.10828 완료
+
+[33mcommit 0aa07869b4dffca17810649db33ba96e8042b132[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Apr 13 16:02:26 2020 +0900
+
+    20단계. 스택
+
+[33mcommit 8a26d96ba0d2cb5f1178fc5f6789e4972924b758[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Apr 13 15:58:53 2020 +0900
+
+    No.1152 완료
+
+[33mcommit f7313bc4d186f9865d3b0a603b9e9e9aeb3380c2[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Apr 13 15:26:56 2020 +0900
+
+    No.1157 완료
+
+[33mcommit 75316439101aa1db507a5573dea80cb873b995a0[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Mon Apr 13 14:43:57 2020 +0900
+
+    No.2675 완료
+
+[33mcommit e5b7e9155d0b86827e968909be4d77dc63d7a10a[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 16:49:32 2020 +0900
+
+    No.10809 완료
+
+[33mcommit c50865dd7724afafd0ba9e25def64ffdf54ce622[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 16:32:37 2020 +0900
+
+    No.11720 완료
+
+[33mcommit dc48aadb1c309f45bb35723f08c57dfb8fb1cfba[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 16:28:33 2020 +0900
+
+    No.11654 완료
+
+[33mcommit e08924517197da8c98548ce20278fcd91c450af5[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 16:22:02 2020 +0900
+
+    8단계. 문자열
+
+[33mcommit ea6af8a687b551fa077e788681a4a99b8402bef9[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 16:18:16 2020 +0900
+
+    7단계 완료
+
+[33mcommit b42ba78d0898f250e7e440c880641f7e7f7e99b4[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sun Apr 12 14:56:42 2020 +0900
+
+    No.4673 완료
+
+[33mcommit e98a3cae0ffe804ee20c908765b62763604f1c54[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 19:32:43 2020 +0900
+
+    No.4673 완료
+
+[33mcommit 8e07c8f15bdd7343a1a8fe25198fee48465834a8[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 19:10:56 2020 +0900
+
+    No.15596 완료
+
+[33mcommit ced2ae544f1a70fb3c8bb4bfceca9c6855564179[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 19:04:23 2020 +0900
+
+    7단계. 함수
+
+[33mcommit 44871588b4743a1ae03f6c7ae6dd79c71e53f567[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 16:49:26 2020 +0900
+
+    6단계 완료
+
+[33mcommit 9651ea68c1eae3968387112b6ac21fcdac8c6b5f[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 16:30:29 2020 +0900
+
+    No.8958 완료
+
+[33mcommit b6bdd1d916a0639a8b566b0e720f1ac7f8785994[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 15:42:19 2020 +0900
+
+    No.1546 완료
+
+[33mcommit 8f9c6a171d5dcb01fa22ed9816c5959ceedb4925[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 00:23:13 2020 +0900
+
+    deleteFirst 구현 중
+
+[33mcommit 72f6aa49eec0e3e4ec30c63c4aa650963a113b54[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Sat Apr 11 00:13:20 2020 +0900
+
+    AddAt 구현 완료
+
+[33mcommit 2e14dcb380f0e2c3f5110bb2434a7de9a8cfd671[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 23:14:23 2020 +0900
+
+    addList 구현 완료
+
+[33mcommit 4845419a4e021f56bddcebc54aeaba89c25bd7bb[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 23:12:54 2020 +0900
+
+    Doubly Linked List
+
+[33mcommit d93e740d9180b2c83437c7feced51e8ee68cdcf6[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 23:00:46 2020 +0900
+
+    addFirst, display 구현 완료
+
+[33mcommit 4e9f211ce41f1287a1e78d2c3f70916d0c2202f7[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 20:02:31 2020 +0900
+
+    Doubly Linked List
+
+[33mcommit ec8a4971570d1e0c3d7741ca3280098ce883f12c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 18:02:14 2020 +0900
+
+    No.3052 완료
+
+[33mcommit 54e6d12b81158d01c7d48b2b271e3b4c261fd74b[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 17:14:52 2020 +0900
+
+    No.10818 완료
+
+[33mcommit dbee2a597bc1ffe49ab9b7c31aa7e155e49207ae[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 16:57:21 2020 +0900
+
+    5단계 완료
+
+[33mcommit 15f46d296b6e2b39607aaa961cca618b1d011644[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 16:53:54 2020 +0900
+
+    5단계 완료
+
+[33mcommit b97282da5f7246d1a75076857b5106b6a8f9f579[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 16:11:12 2020 +0900
+
+    5단계. 실습 1
+
+[33mcommit 49335e1fb704337740f6c5c8571ee57aa3161b64[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 16:09:18 2020 +0900
+
+    4단계 완료
+
+[33mcommit 7ffd6b75874d8e85344fc30a4f1625612bf4fdad[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 15:05:14 2020 +0900
+
+    4단계. while문
+
+[33mcommit dd0ae314ee8d6627f277df0fc54e5c8c029b2d9c[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 15:01:57 2020 +0900
+
+    3단계 완료
+
+[33mcommit 8405c821efb4deb35eb9b0e44c783e8b26fe82f4[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 14:45:19 2020 +0900
+
+    3단계. for문
+
+[33mcommit 3023b98390d6a5f8ea6d48f57b13cb22513e5bc8[m
+Merge: 496ef54 4853039
+Author: mornings9047 <50758526+mornings9047@users.noreply.github.com>
+Date:   Fri Apr 10 14:29:00 2020 +0900
+
+    Merge pull request #1 from mornings9047/feature/ISSUE-Stage2
+    
+    Feature/issue stage2
+
+[33mcommit 48530397eb9b26c4e4a24c50874bdf5f51a4b45e[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 14:25:29 2020 +0900
+
+    2단계 완료
+
+[33mcommit 2ee04805e2418ca8f451681f148505d12a0f4d42[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Fri Apr 10 14:15:25 2020 +0900
+
+    2단계. if문
+
+[33mcommit 496ef544265f68237e656cdc986361483547aaf0[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 20:09:56 2020 +0900
+
+    2단계. if문
+
+[33mcommit 2516b96879f031a71ca8d13837536e02a56acb1e[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 20:05:05 2020 +0900
+
+    2단계. if문
+
+[33mcommit aafb33603fa98c98a1b20294305278c76ee87c46[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 20:00:48 2020 +0900
+
+    2단계 솔루션 삭제
+
+[33mcommit c4114b99f99d5b7c9ddea5b05b859387755a93cf[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 19:58:06 2020 +0900
+
+    commit message 잘못 작성하여 삭제 후 새로 만듬.
+
+[33mcommit 6384f4b646fe12e21436a0bc2e66abafb9f658ba[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 19:56:05 2020 +0900
+
+    Revert "No.1330 완료"
+    
+    This reverts commit 248eaf923ff04261217fc2cabb0fd7b954487282.
+
+[33mcommit 418bfdd6b2b220264992c5a37d876acccf694556[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 19:50:42 2020 +0900
+
+    No.2753 완료
+
+[33mcommit 248eaf923ff04261217fc2cabb0fd7b954487282[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 19:28:23 2020 +0900
+
+    No.1330 완료
+
+[33mcommit 5b5f4d4a5d82fbbb2498b85d75568a69dd45d9f7[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 19:18:45 2020 +0900
+
+    2단계 1330번 해야됨
+
+[33mcommit 21e15e15cd10dcb1cf69229cc094ea24695041e7[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 18:39:08 2020 +0900
+
+    1단계 완료
+
+[33mcommit 82906f3067fa4f8a85af8e3c625f4a3308e50dab[m
+Author: JoonHee <mornings9047@naver.com>
+Date:   Thu Apr 9 17:58:33 2020 +0900
+
+    1단계. 입출력과 사칙연산
+
+[33mcommit c1e839a41a77124e5b83ed86f73af9522ffb58dc[m
+Author: mornings9047 <50758526+mornings9047@users.noreply.github.com>
+Date:   Thu Apr 9 17:47:43 2020 +0900
+
+    Initial commit
