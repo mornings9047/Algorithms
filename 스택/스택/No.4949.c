@@ -1,15 +1,13 @@
 /* No.4949 위와 같은데 괄호의 종류가 다양해진 문제 */
 #include <stdio.h>
-
 #define max 100
 
 char stack[max];
 int size = 0;
 
 void reset() {
-	for (int i = 0; i < max; i++)
-		stack[i] = -1;
-	size = 0;
+	while (!isEmpty())
+		pop();
 }
 
 int isEmpty() {
